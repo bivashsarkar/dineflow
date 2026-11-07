@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tbl_fb5be0cf2ee4",
+    "restaurant_id": "rst_5e1910887ecc",
+    "number": 1,
+    "token": "tbl_yKlOrnBEXdeuR66ttjf7",
+    "status": "occupied",
+    "qr_file": "food-corner-table-1.png",
+    "created_at": "2026-11-08T01:59:04",
+    "qr_url": "http://localhost:5173/r/food-corner/table/tbl_yKlOrnBEXdeuR66ttjf7"
+  },
+  {
+    "id": "tbl_45b257c4162b",
+    "restaurant_id": "rst_5fdb0be71f70",
+    "number": 1,
+    "token": "tbl_SbsHRsngO71nPpRuJQ9O",
+    "status": "available",
+    "qr_file": "royal-cafe-table-1.png",
+    "created_at": "2026-11-08T01:59:42",
+    "qr_url": "http://localhost:5173/r/royal-cafe/table/tbl_SbsHRsngO71nPpRuJQ9O"
+  }
+]

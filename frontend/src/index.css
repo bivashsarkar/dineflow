@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cream-50 text-ink-800 font-sans antialiased;
+    font-feature-settings: 'ss01' on, 'cv01' on;
+  }
+  ::selection {
+    @apply bg-brand-200 text-ink-900;
+  }
+  input,
+  textarea,
+  select,
+  button {
+    font-family: inherit;
+  }
+}
+
+@layer components {
+  /* ---------------------------------------------------------------- */
+  /* Form controls                                                     */
+  /* ---------------------------------------------------------------- */
+  .field-label {
+    @apply block text-[13px] font-semibold text-ink-600 mb-1.5;
+  }
+  .field-input {
+    @apply w-full rounded-xl border border-cream-300 bg-white px-3.5 py-2.5 text-sm
+           text-ink-800 placeholder:text-ink-500/60 outline-none transition
+           focus:border-brand-400 focus:ring-4 focus:ring-brand-100 disabled:opacity-60;
+  }
+  .field-error {
+    @apply mt-1.5 text-xs font-medium text-red-600;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Cards                                                             */
+  /* ---------------------------------------------------------------- */
+  .panel {
+    @apply rounded-2xl border border-cream-200 bg-white shadow-card;
+  }
+  .stat-card {
+    @apply panel relative overflow-hidden p-5;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Buttons                                                           */
+  /* ---------------------------------------------------------------- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm
+           font-semibold transition active:scale-[.98] disabled:cursor-not-allowed
+           disabled:opacity-60 focus:outline-none focus-visible:ring-4;
+  }
+  .btn-primary {
+    @apply btn bg-brand-500 text-white shadow-[0_8px_20px_-10px_rgba(249,106,22,.9)]
+           hover:bg-brand-600 focus-visible:ring-brand-100;
+  }
+  .btn-dark {
+    @apply btn bg-ink-800 text-white hover:bg-ink-900 focus-visible:ring-ink-800/25;
+  }
+  .btn-ghost {
+    @apply btn border border-cream-300 bg-white text-ink-700 hover:border-cream-400
+           hover:bg-cream-100 focus-visible:ring-cream-300;
+  }
+  .btn-danger {
+    @apply btn bg-red-50 text-red-600 border border-red-100 hover:bg-red-100
+           focus-visible:ring-red-100;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-[13px] rounded-lg;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Chips / badges                                                    */
+  /* ---------------------------------------------------------------- */
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold
+           transition cursor-pointer select-none border;
+  }
+}
+
+/* -------------------------------------------------------------------- */
+/* Scrollbars                                                           */
+/* -------------------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0d2b6;
+  border-radius: 99px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cfbc95;
+  background-clip: padding-box;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Hide number input spinners */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

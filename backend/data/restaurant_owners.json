@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rst_5e1910887ecc",
+    "restaurant_id": "rst_5e1910887ecc",
+    "username": "foodcorner_admin",
+    "password_hash": "scrypt:32768:8:1$reaZzAliK3PxgyXo$e8f737a8e05923738e764e43e7fc2dbb71549124746346b8bc16808ee5977f9e23a0eba890af36337421e60bd53ec2cc80a917f1d5d0a7b268b529634d8ee8af",
+    "name": "Rahul Sharma",
+    "created_at": "2026-11-08T01:48:52",
+    "last_login": "2026-11-08T02:03:56"
+  },
+  {
+    "id": "rst_5fdb0be71f70",
+    "restaurant_id": "rst_5fdb0be71f70",
+    "username": "royalcafe_admin",
+    "password_hash": "scrypt:32768:8:1$x3OLgCzE4l0qOnnI$56ea6ef008982150a39cf094f7629cde3a3d1889a6dcfea5510666805c9f971fdce1298da049453a4f3939c2a8fcc95fff473c6f0b59e4feb6ae3c1e25f96f46",
+    "name": "Priya Verma",
+    "created_at": "2026-11-08T01:51:27",
+    "last_login": "2026-11-08T02:00:03"
+  }
+]

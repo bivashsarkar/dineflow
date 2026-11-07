@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rst_5e1910887ecc",
+    "name": "Food Corner",
+    "slug": "food-corner",
+    "owner_name": "Rahul Sharma",
+    "phone": "9876543210",
+    "email": "owner@foodcorner.com",
+    "address": "12 MG Road, Bengaluru",
+    "logo_url": "",
+    "status": "active",
+    "created_at": "2026-11-08T01:48:52",
+    "updated_at": "2026-11-08T01:48:52"
+  },
+  {
+    "id": "rst_5fdb0be71f70",
+    "name": "Royal Cafe",
+    "slug": "royal-cafe",
+    "owner_name": "Priya Verma",
+    "phone": "9812345678",
+    "email": "owner@royalcafe.com",
+    "address": "5 Brigade Road, Bengaluru",
+    "logo_url": "",
+    "status": "active",
+    "created_at": "2026-11-08T01:51:26",
+    "updated_at": "2026-11-08T01:51:26"
+  }
+]

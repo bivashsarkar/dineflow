@@ -1,0 +1,28 @@
+[
+  {
+    "id": "oi_7808197508be",
+    "restaurant_id": "rst_5e1910887ecc",
+    "order_id": "ord_10e11a030bf4",
+    "session_id": "ses_aad4936c451a",
+    "table_id": "tbl_fb5be0cf2ee4",
+    "menu_item_id": "itm_c9fa2531b884",
+    "name": "Chicken Biryani",
+    "price": 180.0,
+    "qty": 1,
+    "amount": 180.0,
+    "created_at": "2026-11-08T02:02:14"
+  },
+  {
+    "id": "oi_85feed875371",
+    "restaurant_id": "rst_5e1910887ecc",
+    "order_id": "ord_10e11a030bf4",
+    "session_id": "ses_aad4936c451a",
+    "table_id": "tbl_fb5be0cf2ee4",
+    "menu_item_id": "itm_2070f6aaa7e1",
+    "name": "Pizza",
+    "price": 150.0,
+    "qty": 1,
+    "amount": 150.0,
+    "created_at": "2026-11-08T02:02:14"
+  }
+]

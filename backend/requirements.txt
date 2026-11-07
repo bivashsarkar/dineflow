@@ -1,0 +1,9 @@
+Flask>=3.0.0,<4
+Flask-SocketIO>=5.3.6,<6
+Flask-CORS>=4.0.0,<6
+firebase-admin>=6.5.0,<8
+cloudinary>=1.39.0,<2
+qrcode[pil]>=7.4.2,<9
+reportlab>=4.0.0,<5
+python-dotenv>=1.0.0,<2
+Werkzeug>=3.0.0,<4

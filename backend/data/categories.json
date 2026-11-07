@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cat_a26f05cf34ef",
+    "restaurant_id": "rst_5e1910887ecc",
+    "name": "Main Course",
+    "sort_order": 10,
+    "created_at": "2026-11-08T01:54:23"
+  },
+  {
+    "id": "cat_9288cbfd0c9e",
+    "restaurant_id": "rst_5fdb0be71f70",
+    "name": "Mains",
+    "sort_order": 10,
+    "created_at": "2026-11-08T02:00:03"
+  }
+]

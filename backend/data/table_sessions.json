@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ses_aad4936c451a",
+    "restaurant_id": "rst_5e1910887ecc",
+    "table_id": "tbl_fb5be0cf2ee4",
+    "table_number": 1,
+    "table_token": "tbl_yKlOrnBEXdeuR66ttjf7",
+    "status": "open",
+    "opened_at": "2026-11-08T02:02:14",
+    "closed_at": "",
+    "bill_id": ""
+  }
+]
