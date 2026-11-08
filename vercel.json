@@ -1,0 +1,14 @@
+{
+  "builds": {
+    "api": "functions/api.js",
+    "your-project": "npm run build"
+  },
+  "functions": {
+    "api": {
+      "runtime": "node18"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/frontend/$1" }
+  ]
+}
