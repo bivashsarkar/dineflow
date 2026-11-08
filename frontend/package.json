@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "build": "vite build",
-  "postinstall": "chmod +x node_modules/.bin/vite || true"
-}
+    "build": "vite build",
+    "postinstall": "chmod +x node_modules/.bin/vite || true"
+  },   <-- **COMMA HERE**
   "dependencies": {
     "lucide-react": "latest",
     "react": "^18.3.1",
